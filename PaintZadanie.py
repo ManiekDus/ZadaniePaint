@@ -1,22 +1,10 @@
-'''
-def mult(n,m):
-    if(n < 0):
-        m = m * (-1)
-        n = n * (-1)
-    if n == 0:
-        return 0
-    return m + mult((n-1),m)
-
-print(mult(-5, 2))
-
-
-'''
 
 def wypiszKartke(paper):
     for i in range(len(paper)):
         for j in range(15):
             print(paper[i][j], end="")
         print("")
+
 print("Program imitujący narzedzie kubelka z painta.")
 print(" ")
 print("Komendy wpisywania do kartki: ")
